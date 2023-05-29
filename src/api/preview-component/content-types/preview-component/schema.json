@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preview_components",
+  "info": {
+    "singularName": "preview-component",
+    "pluralName": "preview-components",
+    "displayName": "previewComponent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "previewComponent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.notice"
+    },
+    "vfdfdvdfvdfv": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pages_rich_text_mdxes",
+  "info": {
+    "displayName": "richTextMdx"
+  },
+  "options": {},
+  "attributes": {
+    "richTextMdx": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "blog-editor",
+  "version": "0.0.0",
+  "description": "Plugin support build blog",
+  "strapi": {
+    "name": "blog-editor",
+    "description": "Description of Blog Editor plugin",
+    "kind": "plugin",
+    "displayName": "Blog Editor"
+  },
+  "dependencies": {
+    "@editorjs/checklist": "^1.5.0",
+    "@editorjs/code": "^2.8.0",
+    "@editorjs/delimiter": "^1.3.0",
+    "@editorjs/editorjs": "^2.27.0",
+    "@editorjs/embed": "^2.5.3",
+    "@editorjs/header": "^2.7.0",
+    "@editorjs/image": "^2.8.1",
+    "@editorjs/inline-code": "^1.4.0",
+    "@editorjs/link": "^2.5.0",
+    "@editorjs/list": "^1.8.0",
+    "@editorjs/marker": "^1.3.0",
+    "@editorjs/paragraph": "^2.9.0",
+    "@editorjs/quote": "^2.5.0",
+    "@editorjs/raw": "^2.4.0",
+    "@editorjs/simple-image": "^1.5.1",
+    "@editorjs/table": "^2.2.1",
+    "@editorjs/warning": "^1.3.0",
+    "classnames": "^2.3.2",
+    "react-editor-js": "^2.1.0"
+  },
+  "author": {
+    "name": "btaskee"
+  },
+  "maintainers": [
+    {
+      "name": "Btaskee"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

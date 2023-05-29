@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_notices",
+  "info": {
+    "displayName": "Notice",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "orange",
+        "gray",
+        "blue"
+      ],
+      "default": "orange",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 5,
+      "maxLength": 255
+    },
+    "PreviewNotice": {
+      "type": "customField",
+      "customField": "plugin::componentpreview.preview",
+      "options": {
+        "url": "/uploads/component-preview/component1.png"
+      }
+    }
+  }
+}

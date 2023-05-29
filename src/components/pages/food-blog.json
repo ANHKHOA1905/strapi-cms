@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_pages_food_blogs",
+  "info": {
+    "displayName": "foodBlog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleSection": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "foodBlogExample": {
+      "type": "customField",
+      "options": {
+        "url": "/uploads/component-preview/foodblog-example.png"
+      },
+      "customField": "plugin::componentpreview.preview"
+    }
+  }
+}

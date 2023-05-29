@@ -1,0 +1,69 @@
+{
+  "_from": "strapi-plugin-component-preview",
+  "_id": "strapi-plugin-component-preview@1.0.9",
+  "_inBundle": false,
+  "_integrity": "sha512-WhvfS+1qN6S63iA4tDbbDq9R9eejq+T7GwV9g42+fA1Xlc+zVd9asWB/cgMHHIRw7ZTgPaX/CF8uOwj3HVBmdg==",
+  "_location": "/strapi-plugin-component-preview",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "strapi-plugin-component-preview",
+    "name": "strapi-plugin-component-preview",
+    "escapedName": "strapi-plugin-component-preview",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-component-preview/-/strapi-plugin-component-preview-1.0.9.tgz",
+  "_shasum": "ce621324b3d44303ec4e637bfe8a7dcfd29f1996",
+  "_spec": "strapi-plugin-component-preview",
+  "_where": "/Users/anhkh0a/abc/btaskee-cms",
+  "author": {
+    "name": "Vinu Babu",
+    "email": "vinubabu323@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/vinubabu323/strapi-plugin-component-preview/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "This plugin shows a preview of the component that is developed.",
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "homepage": "https://github.com/vinubabu323/strapi-plugin-component-preview#readme",
+  "keywords": [
+    "strapi",
+    "component",
+    "component preview",
+    "content types"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-component-preview",
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinubabu323/strapi-plugin-component-preview.git"
+  },
+  "strapi": {
+    "name": "componentpreview",
+    "description": "This plugin shows a preview of the component that is developed by adding images.",
+    "kind": "plugin",
+    "displayName": "Component Preview"
+  },
+  "version": "1.0.9"
+}

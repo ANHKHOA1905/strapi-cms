@@ -1,0 +1,94 @@
+{
+  "_from": "strapi-plugin-preview-button",
+  "_id": "strapi-plugin-preview-button@1.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-j+32xYeA0ZRm1yrVBJASHDln1NCCWgWICM5BI/dxV7614Rg2CzAUAe3q0NnMMrocjuvRBbhuxnigOhh0QEjDgQ==",
+  "_location": "/strapi-plugin-preview-button",
+  "_phantomChildren": {
+    "@remix-run/router": "1.6.2",
+    "@types/hoist-non-react-statics": "3.3.1",
+    "@types/react": "17.0.54",
+    "hoist-non-react-statics": "3.3.2",
+    "tslib": "2.5.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "strapi-plugin-preview-button",
+    "name": "strapi-plugin-preview-button",
+    "escapedName": "strapi-plugin-preview-button",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-preview-button/-/strapi-plugin-preview-button-1.1.3.tgz",
+  "_shasum": "c1d30dd741d637e70ef55e55b633a8851e67840b",
+  "_spec": "strapi-plugin-preview-button",
+  "_where": "/Users/anhkh0a/abc/btaskee-cms",
+  "author": {
+    "name": "Matt Milburn",
+    "url": "https://github.com/mattmilburn"
+  },
+  "bugs": {
+    "url": "https://github.com/mattmilburn/strapi-plugin-preview-button/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "immer": "^9.0.12",
+    "prop-types": "^15.8.1",
+    "qs": "^6.10.3",
+    "react": "^17.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-intl": "^5.24.6",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1"
+  },
+  "deprecated": false,
+  "description": "A plugin for Strapi CMS that adds a preview button and live view button to the content manager edit view.",
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "homepage": "https://github.com/mattmilburn/strapi-plugin-preview-button#readme",
+  "keywords": [
+    "strapi",
+    "plugin",
+    "preview",
+    "draft",
+    "page",
+    "next"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Matt Milburn",
+      "url": "https://github.com/mattmilburn"
+    }
+  ],
+  "name": "strapi-plugin-preview-button",
+  "peerDependencies": {
+    "@strapi/design-system": "^1.4.0",
+    "@strapi/helper-plugin": "^4.5.6",
+    "@strapi/icons": "^1.4.0",
+    "@strapi/strapi": "^4.5.6",
+    "@strapi/utils": "^4.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmilburn/strapi-plugin-preview-button.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "strapi": {
+    "displayName": "Preview Button",
+    "name": "preview-button",
+    "description": "Adds a preview button and live view button to the content manager edit view.",
+    "kind": "plugin"
+  },
+  "version": "1.1.3"
+}

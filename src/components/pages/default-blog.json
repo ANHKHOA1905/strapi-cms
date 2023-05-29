@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pages_default_blogs",
+  "info": {
+    "displayName": "defaultBlog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "Notice": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.notice"
+    }
+  }
+}

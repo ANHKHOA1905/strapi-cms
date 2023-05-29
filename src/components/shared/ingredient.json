@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_ingredients",
+  "info": {
+    "displayName": "Ingredient"
+  },
+  "options": {},
+  "attributes": {
+    "testFiled": {
+      "type": "enumeration",
+      "enum": [
+        "morning",
+        "noon",
+        "evening"
+      ]
+    }
+  }
+}
